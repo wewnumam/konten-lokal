@@ -7,6 +7,17 @@ Icon | Judul | Kreator | Media | URL | Deskripsi
 ![](https://www.google.com/s2/favicons?domain=ceritarakyatnusantara.com) | Cerita Rakyat Nusantara | Balai Kajian Budaya | `Artikel` | [Link](http://ceritarakyatnusantara.com/) | Kumpulan cerita rakyat Nusantara
 ![](https://www.google.com/s2/favicons?domain=www.kerajaannusantara.com) | Kerajaan Nusantara | KerajaanNusantara.com | `Artikel` | [Link](http://www.kerajaannusantara.com/id/location/indonesia) | Dokumentasi kerajaan di Nusantara
 
+## Data
+Icon | Judul | Kreator | Media | URL | Deskripsi
+--- | --- | --- | --- | --- | ---
+![](https://www.google.com/s2/favicons?domain=www.agi.or.id) | Peta Ekosistem Industri Game Indonesia 2020 | AGI, Kominfo, LIPI | `Buku` | [Link](https://s.id/1zqbw) | Data dan fakta kondisi ekosistem industri game di Indonesia
+![](https://www.google.com/s2/favicons?domain=www.agi.or.id) | Peta Ekosistem Industri Game Indonesia 2021 | AGI, Kominfo, LIPI | `Buku` | [Link](https://s.id/1zqbe) | Data dan fakta kondisi ekosistem industri game di Indonesia
+
+## Kreator
+Icon | Judul | Kreator | Media | URL | Deskripsi
+--- | --- | --- | --- | --- | ---
+![](https://www.google.com/s2/favicons?domain=gamedeveloper.id) | Kumpulan informasi gamedev lokal | GameDeveloper.ID | `Artikel` | [Link](https://gamedeveloper.id/) | Resource berkaitan dengan informasi game development di Indonesia
+
 ## Tools
 Icon | Judul | Kreator | Media | URL | Deskripsi
 --- | --- | --- | --- | --- | ---
