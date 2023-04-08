@@ -17,6 +17,12 @@ Icon | Judul | Kreator | Media | URL | Deskripsi
 Icon | Judul | Kreator | Media | URL | Deskripsi
 --- | --- | --- | --- | --- | ---
 ![](https://www.google.com/s2/favicons?domain=gamedeveloper.id) | Kumpulan informasi gamedev lokal | GameDeveloper.ID | `Artikel` | [Link](https://gamedeveloper.id/) | Resource berkaitan dengan informasi game development di Indonesia
+![](https://www.google.com/s2/favicons?domain=youtube.com) | Gromore Studio Series | Gromore Studio | `Video` | [Link](https://www.youtube.com/@GromoreStudio) | Kisah Nusantara animasi cerita rakyat indonesia
+
+## Game
+Icon | Judul | Kreator | Media | URL | Deskripsi
+--- | --- | --- | --- | --- | ---
+![](https://www.google.com/s2/favicons?domain=youtube.com) | Game dengan Unsur Indonesia | - | `Video` | [Link](https://www.youtube.com/playlist?list=PLwR9e8X5S7bwU4oCNMyktoZzXlj4kgbzR) | Playlist Game dengan Unsur Indonesia
 
 ## Tools
 Icon | Judul | Kreator | Media | URL | Deskripsi
