@@ -2,15 +2,15 @@
   import "bootstrap/dist/css/bootstrap.min.css";
   import { onMount } from "svelte";
 
-  let games = [];
+  let items = [];
 
   async function fetchData() {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8090/api/collections/games/records?expand=developer,developer.country,tags"
+        "http://127.0.0.1:8090/api/collections/items/records?expand=author,author.country,tags"
       );
       const data = await response.json();
-      games = data.items;
+      items = data.items;
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -22,26 +22,26 @@
 </script>
 
 <main>
-  {#if games.length > 0}
+  {#if items.length > 0}
   <div class="row">
-    {#each games as game (game.id)}
+    {#each items as item (item.id)}
     <div class="card col-3">
-      <img src="{`http://127.0.0.1:8090/api/files/${game.collectionId}/${game.id}/${game.thumbnail}`}" class="card-img-top" alt="{game.title}">
+      <img src="{`http://127.0.0.1:8090/api/files/${item.collectionId}/${item.id}/${item.thumbnail}`}" class="card-img-top" alt="{item.title}">
       <div class="card-body">
-        <h5 class="card-title">{game.title}</h5>
-        <p class="card-text">{game.caption}</p>
+        <h5 class="card-title">{item.title}</h5>
+        <p class="card-text">{item.caption}</p>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">{game.release}</li>
+        <li class="list-group-item">{item.release}</li>
         <li class="list-group-item">
-          {#each game.expand.tags as tag (tag.id)}
-          {tag.name}{#if game.expand.tags.length > 0},
+          {#each item.expand.tags as tag (tag.id)}
+          {tag.name}{#if item.expand.tags.length > 0},
           {/if}{/each}
         </li>
       </ul>
       <div class="card-body">
-        <a href="{game.expand.developer.link}" class="card-link">{game.expand.developer.name}</a>
-        <a href="{game.store}" class="card-link">Store</a>
+        <a href="{item.expand.author.link}" class="card-link">{item.expand.author.name}</a>
+        <a href="{item.link}" class="card-link">Store</a>
       </div>
     </div>
     {/each}

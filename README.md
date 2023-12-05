@@ -1,5 +1,30 @@
 # konten-lokal
-Kumpulan Konten Lokal Indonesia untuk Membantu Kreator Media Digital Mencari Ide
+Kumpulan Konten Lokal Indonesia untuk Membantu Kreator Media Digital Membuat Produk Budaya
+
+## Development Installation
+### Back-end
+1. Download https://github.com/pocketbase/pocketbase/releases/tag/v0.19.4
+2. Extract and move `pocketbase` or `pocketbase.exe` to `backend` folder
+3. Run
+   
+   For Windows
+   ```powershell
+   .\pocketbase.exe serve
+   ```
+   For Mac/Linux
+   ```bash
+   pocketbase serve
+   ```
+
+### Front-end
+1. Install Node.js and npm
+2. Go to `frontend` folder
+3. Run
+   
+   ```bash
+   npm install
+   npm run dev
+   ```
 
 ## Wiki
 Icon | Judul | Kreator | Media | URL | Deskripsi
